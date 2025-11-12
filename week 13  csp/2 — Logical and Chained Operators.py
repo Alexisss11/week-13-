@@ -18,7 +18,25 @@ print(x < 5 or x == 10)   # True
 print(not(x == 10))       # False
 print(1 < x < 20)         # True
 
+#score calculator
+score = int(input("enter your score (0-100):"))
+#if score is between 90 and 100
+#assign grade A
+if 90<= score <= 100:
+    print("Grade: A")
+#if score is between 80 and 89
+# assign grade b
+elif 80<= score < 90:
+    print("Grade: B")
 
+elif 70<= score < 80:
+    print("Grade: C")
+
+if 60<= score < 70:
+    print("Grade: D")
+
+elif score < 60:
+    print("Grade: F") 
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
