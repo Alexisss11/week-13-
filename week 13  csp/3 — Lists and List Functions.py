@@ -69,7 +69,11 @@ numbers = [3, 1, 4, 2]
 numbers.sort()
 print(numbers)
 
-
+#summary of list functions
+# .append(item) - adds an item to the end of the list
+# pop (index) - removes and returns the item at the specified index
+#. sort() - sorts the list in ascending order
+# . reverse() - reverses the order of the list
 
 # Practice Problems:
 
