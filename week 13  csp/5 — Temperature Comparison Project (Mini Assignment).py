@@ -9,6 +9,15 @@
 # Prints whether it’s cold, warm, or hot using comparison operators.
 
 # If the temperature is out of range (below -10 or above 110), display “Extreme temperature warning!”
+# Program to determine temperature category and display a warning if necessary.
+temperature = int(input("What is today's temperature?:"))
 
-# Starter Code:
-
+if temperature <= 50:
+    print("It is cold.")
+else:
+    if temperature >= 80:
+        print("It is hot.")
+    else:
+        print("It is warm.")
+if temperature <= -10 or temperature >= 110:
+    print("Extreme temperature warning!")
